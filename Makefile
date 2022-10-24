@@ -5,3 +5,6 @@ test-contracts:
 
 test-Fallback:
 	npx hardhat test --grep Fallback
+
+test-Fallout:
+	npx hardhat test --grep Fallout
