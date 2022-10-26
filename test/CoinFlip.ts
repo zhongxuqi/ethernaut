@@ -25,11 +25,6 @@ describe("CoinFlip", function () {
       }
       console.log((await (coinFlip.connect(owner)).consecutiveWins()).toNumber())
       expect((await (coinFlip.connect(owner)).consecutiveWins()).toNumber()).to.equal(10);
-    //   await expect((await coinFlip.connect(otherAccount)).flip()).to.be.revertedWith(
-    //     "caller is not the owner"
-    //   );
-    //   await expect((await coinFlip.connect(otherAccount)).Fal1out({value: ethers.utils.parseEther('0.1')})).not.to.be.reverted;
-    //   await expect((await coinFlip.connect(otherAccount)).collectAllocations()).not.to.be.reverted;
     });
   })
 })

@@ -11,3 +11,6 @@ test-Fallout:
 
 test-CoinFlip:
 	npx hardhat test --grep CoinFlip
+
+test-Telephone:
+	npx hardhat test --grep Telephone
