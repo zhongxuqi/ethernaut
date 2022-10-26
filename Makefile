@@ -8,3 +8,6 @@ test-Fallback:
 
 test-Fallout:
 	npx hardhat test --grep Fallout
+
+test-CoinFlip:
+	npx hardhat test --grep CoinFlip
